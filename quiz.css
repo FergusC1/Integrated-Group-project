@@ -1,0 +1,53 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.quizForm {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.question {
+    border: 1px solid darkgray;
+    border-radius: 15px;
+    padding: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    overflow: hidden;
+}
+
+.question p {
+    margin-bottom: 20px;
+}
+
+.question label {
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
+.question label:nth-child(odd) {
+    clear: left;
+    width: 50%;
+    float: left;
+}
+
+.question label:nth-child(even) {
+    width: 50%;
+    float: right;
+    clear: right;
+}
+
+input[type="submit"] {
+    display: block;
+    margin: 20px auto;
+    font-size: 15px;       /* Increase font size */
+    padding: 10px 20px;    /* Increase padding */
+    border-radius: 5px;    /* Optional: Add rounded corners */
+}
+

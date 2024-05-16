@@ -1,0 +1,168 @@
+body {
+    font-family: sans-serif;
+ }
+
+ p{
+    font-size: 22px;
+ }
+
+ li{
+   font-size: 22px;
+ }
+
+ body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  background-color: #8dc78d;
+}
+
+
+
+   h1{
+    font-family: sans-serif;
+    font-size: 40px;
+    color: green;
+   }
+   button{
+    font-family: sans-serif;
+    font-size: 20px;
+    color: white;
+    background-color: green;
+    font-family: sans-serif;
+    padding: 16px 32px;
+    border: 2px solid green;
+   }
+   button:hover{
+    color:green;
+    background-color: white;
+    border: 2px solid green;
+   }
+
+   #subHeading{
+    font-family: sans-serif;
+    font-size: 30px;
+    color: green;
+   }
+
+   #examples{
+    font-family: sans-serif;
+    font-size: 25px;
+    color: green;
+   }
+
+   #main{
+    border: 2px solid green;
+    background-color: white;
+    margin-left: 20px;
+    margin-right: 20px;
+   }
+
+   #box{
+    margin-left: 20px;
+    margin-right: 20px;
+   }
+   #yearGroup {
+    text-align: center; /* Center-align the buttons */
+}
+
+#yearGroup a {
+    text-decoration: none; /* Remove underline from anchor tags */
+}
+
+#yearGroup button {
+    padding: 15px 30px; /* Increase padding to make buttons larger */
+    margin: 10px; /* Add spacing between buttons */
+    font-size: 50px; /* Adjust font size */
+}
+
+   #quiz{
+    border: 2px solid green;
+   }
+   nav {
+    height: 70px;
+    background-color: #489f48;
+    color: #FFFFFF;
+    padding: 0 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+  }
+  
+  .nav-links ul {
+    display: flex;
+    background-color: transparent;
+  }
+  
+  nav li {
+    list-style: none;
+    margin: 0 0.5rem;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: white;
+  }
+
+  .logo a {
+    display: flex;
+    background-color: transparent;
+  }
+  
+  .logo-img {
+    width: 40px;
+    margin-right: 1em;
+    filter: invert(100%);
+    background: transparent;
+  }
+
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+
+
+.container{
+    height: 44rem;
+    width: 40rem;
+    background-color: white;
+    box-shadow: 0 0 10px 1px limegreen;
+    align-items: center;
+    justify-content: center;
+    align-items:t;
+    margin-left: 30%;
+    margin-right:30%;
+
+}
+
+.score-container{
+    height: 4rem;
+    width: 40rem;
+    background-color: lightgreen;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: larger;
+}
+
+.game-container{
+    height: 40rem;
+    width: 40rem;
+    display: grid;
+    grid-template: repeat(15,1fr) / repeat(15,1fr);
+}
+
+.food{
+    background-color: blue;
+    border-radius: 50%;
+}
+
+.snake{
+    background-color: green;
+}
+
+
+ 
